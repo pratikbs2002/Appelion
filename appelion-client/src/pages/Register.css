@@ -1,0 +1,311 @@
+/* General Code */
+
+.register-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #0066bb;
+  padding-top: 50px;
+  height: 100%;
+}
+
+.register-inside-container {
+  padding: 10px;
+  border-radius: 30px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-bottom: 50px;
+  height: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.register-main-container {
+  border-radius: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.register-image-container {
+  width: 40%;
+  height: 100%;
+  min-width: 100px;
+  border-right: 2px solid black;
+}
+
+.register-image-container img {
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+}
+.register-main-part-container {
+  width: 60%;
+  height: 100%;
+  min-width: 200px;
+}
+
+.register-data {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.register-data .greeting-message {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.register-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background-color: #0066bb;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  cursor: pointer;
+  height: 24px;
+  margin-top: 20px;
+}
+
+.link-for-login {
+  margin-bottom: 10px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.link-for-login :first-child {
+  color: #000;
+}
+
+/* register-page-css */
+
+.register-page-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #0066bb;
+  padding-top: 50px;
+  /* height: 100%; */
+}
+
+.register-page-inside-container {
+  border-radius: 30px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-bottom: 50px;
+  /* height: 100%; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.register-page-main-container {
+  border-radius: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.register-page-main-part-container {
+  width: 100%;
+  height: 100%;
+  min-width: 200px;
+}
+
+.register-page-data {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.register-page-data .greeting-message {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.register-form-first-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+}
+
+.register-form-second-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-page-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background-color: #0066bb;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  cursor: pointer;
+  height: 24px;
+  align-self: center;
+  /* margin-top: 20px; */
+}
+
+.link-for-login {
+  margin-bottom: 10px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.link-for-login :first-child {
+  color: #000;
+}
+
+@media (max-width: 520px) {
+  .register-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #0066bb;
+    padding-top: 50px;
+    height: 100%;
+  }
+
+  .register-inside-container {
+    padding: 10px;
+    border-radius: 30px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-bottom: 50px;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+}
+
+@media (max-width: 1024px) {
+  .register-page-inside-container {
+    width: 90%;
+  }
+
+  .register-page-data {
+    flex-direction: column;
+  }
+
+  .register-form-first-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+  }
+
+  .register-form-second-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+  }
+
+  .register-page-button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .register-page-inside-container {
+    width: 95%;
+  }
+}
+
+@media (max-width: 560px) {
+  .register-page-container {
+    padding-top: 0;
+  }
+
+  .register-page-inside-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+
+  .register-page-data {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .register-page-inside-container {
+    padding: 20px;
+  }
+
+  .register-page-data .greeting-message {
+    font-size: 30px;
+  }
+
+  .register-page-button {
+    padding: 15px;
+  }
+
+  .link-for-login {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 360px) {
+  .register-page-data .greeting-message {
+    font-size: 25px;
+  }
+
+  .link-for-login {
+    justify-content: center;
+  }
+}
